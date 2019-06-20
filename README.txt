@@ -1,7 +1,5 @@
 Description
 
-Your objective for this assignment is to interact with the Google Places API and the World Weather Online API to create an application that allows users to receive weather information for a specified place on a specific day.
-
 Application Layout Requirements
 
 - When a user starts the app, they should be presented with a search bar at the top of the screen. Below the search bar should be a TextView with the word "Date:" and an EditText that the user will use to enter a date of interest. Underneath the EditText, centered horizontally, should be a Search button. Centered horizontally beneath the Search button should be text that says "No Place Selected". See the attached screenshot.
@@ -32,11 +30,5 @@ Retrofit Overview Page. This page gives short descriptions and code snippets of 
 Short Retrofit Tutorial. This page contains a short Retrofit tutorial that is somewhat similar to what we did in class. Ignore any mentions of Converters since they are not needed for this assignment. You should be working directly with the JSON that is returned from the request. In this tutorial they are also using a separate JSON library. You are free to use that if you'd like, but the default JSONObject API that we used in class can handle the response just as well. Keep in mind that this tutorial is NOT exactly like what we did in class. It is merely here as a reference. If you choose to follow it exactly, you do so at your own risk. The easiest way to do this assignment is to use the approach that we did in class.
 
 World Weather Online
-Developer Site. Login here. Create a developer account. This will give you trial access to their premium API for 60 Days. Use their Premium API URL to make all requests. Be mindful that you are only allowed to make 500 calls to their API per day
+Developer Site. Create a developer account. This will give you trial access to their premium API for 60 Days. Use their Premium API URL to make all requests. Be mindful that you are only allowed to make 500 calls to their API per day
 Local Weather API Documentation. Documentation for the Local Weather API. This is the API endpoint that you should be using for this assignment.
-
-Postman
-If you would like to examine the data you receive from the World Weather Online API, to help you better debug, you can do so by using Postman like we did in class. If you'd like to download Postman (it's free!), you can do so using this link: Postman Site
-
-If you run into any issues connecting to the Internet in your app, make sure that you've added the Internet Permission to your application. See: Adding Permissions
-
